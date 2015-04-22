@@ -1,0 +1,3 @@
+#!/bin/bash
+/bin/sleep 60
+ssh -llook1 -vv -g -N -R 2222:localhost:22 yotta.ilikeit.co.za

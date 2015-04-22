@@ -1,0 +1,5 @@
+#!/bin/bash
+mplayer -fs -vo gl -fixed-vo /opt/lookoutdoor/video/Look\ Outdoor_Blue.mov
+sleep 1
+killall mplayer
+mplayer -fs -vo gl -fixed-vo -playlist /home/look1/scripts/playlist -loop 0 > /home/look1/mplayer.log
