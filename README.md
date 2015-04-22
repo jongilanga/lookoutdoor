@@ -37,3 +37,7 @@ There, you will find an option for allow executing file as a program.
 	#scp ~/.ssh/id_dsa.pub server:.ssh/authorized_keys2
 	#ssh-agent sh -c 'ssh-add < /dev/null && bash'
 11. Test and set startup scripts
+
+#Running
+* Modifiy scripts/playlist to suit your needs
+* run ./scripts/playvideo (To play)
