@@ -20,8 +20,8 @@ Installing Look Outdoor Clients
 7. Set pppd permission.
 	#sudo chown root:dip /usr/sbin/pppd
 	#sudo chmod 4754 /usr/sbin/pppd
-	#sudo chmod 777 /etc/ppp/pap-secrets 
-	#sudo chmod 777 /etc/ppp/peers
+	#sudo chmod 775 /etc/ppp/pap-secrets 
+	#sudo chmod 775 /etc/ppp/peers
 Open terminal.
 Open nautilus by typing "sudo nautilus".
 Enter password when prompted.
